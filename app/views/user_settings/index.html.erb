@@ -1,0 +1,4 @@
+<%= form_with url: user_settings_index_path do |f| %>
+    <%= select_tag 'user_setting[difficulty]', options_for_select([["簡単", "easy"], ["普通", "normal"], ["難しい", "hard"]]) %>
+    
+<% end %>
